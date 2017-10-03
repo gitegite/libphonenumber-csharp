@@ -27,7 +27,7 @@ namespace PhoneNumbers
     *
     * @author Shaopeng Jia
     */
-    public class DefaultMapStorage : AreaCodeMapStorageStrategy
+    public class DefaultMapStorage : PhonePrefixMapStorageStrategy
     {
         private int[] phoneNumberPrefixes;
         private string[] descriptions;
